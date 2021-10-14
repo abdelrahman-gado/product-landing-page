@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-ol {
+ol, ul {
     list-style: none;
 }
 
@@ -188,6 +188,35 @@ body {
     height: 40px; 
 }
 
+.footer {
+    background-color: #DDDDDD;
+    text-align: right;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer ul li {
+    padding: 0 10px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.footer p {
+    color: #444;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+
 @media (max-width: 800px)
 {
     .pricing {
@@ -201,7 +230,6 @@ body {
         margin-bottom: 10px;
     }
 }
-
 
 
 @media (max-width: 650px)
@@ -242,7 +270,6 @@ body {
 }
 
 
-
 @media (max-width: 550px) {
     
     .feature  .icon {
@@ -262,9 +289,6 @@ body {
     }
 
 }
-
-
-
 
 
 @media (max-width: 320px)
