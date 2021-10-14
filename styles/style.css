@@ -18,6 +18,7 @@ body {
     padding: 0px 20px;
     justify-content: space-between;
     align-items: center;
+    background-color: #eee;
 }
 
 #header-img {
